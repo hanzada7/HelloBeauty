@@ -1,6 +1,24 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django
+*.log
+local_settings.py
 db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Переменные окружения - никогда не коммитим!
 .env
-.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.override.yml

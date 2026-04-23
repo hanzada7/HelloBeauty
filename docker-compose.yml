@@ -9,4 +9,9 @@ services:
       - .env
     volumes:
       - .:/app
+      - media_data:/app/media   # чтобы картинки не исчезали при рестарте
     restart: always
+
+# Именованные тома - данные сохраняются между перезапусками контейнера
+volumes:
+  media_data:

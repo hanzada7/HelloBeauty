@@ -1,5 +1,3 @@
-class User:
-    def __init__(self, username, email, password):
-        self.username = username
-        self.email = email
-        self.password = password
+# users/models.py
+# Этот файл пустой - мы используем модель User из accounts app
+# Оставляем файл чтобы Django не ругался
